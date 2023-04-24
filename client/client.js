@@ -39,7 +39,7 @@ const init = () => {
   const loginForm = document.getElementById('loginForm');
   const domoForm = document.getElementById('domoForm');
   const domoMessage = document.getElementById('domoMessage');
-
+ 
   /* If this page has the signupForm, add it's submit event listener.
      Event listener will grab the username, password, and password2
      from the form, validate everything is correct, and then will
